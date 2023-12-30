@@ -7,5 +7,10 @@ int main()
     int *ptr=&a;
     cout<<ptr<<endl;
     cout<<*ptr<<endl;
+
+    a++;
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
+
 return 0;
 }
